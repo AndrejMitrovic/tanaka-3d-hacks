@@ -15,7 +15,7 @@ To play this game on Windows 10:
 - The game will now run. Although it's still buggy as using the keyboard/mouse in the main menu can sometimes crash. But the game is still playable.
 - It's possible to set it to a higher resolution through its settings.
 
-# Hacking game files
+# Hacking game files (work in progress!)
 
 The `C:\Program Files (x86)\Pacific Media WorX\Tanaka 3D Demo\pilots.omt` contains the save file.
 
@@ -38,7 +38,7 @@ Lower numbers are slower engines.
 
 Max engine is 0x0900 (set from game)
 
-## Car
+## Car (this might have been mixed up with the Engine, got my bytes wrong here)
 
 The `0x00000044` byte stores the car.
 
