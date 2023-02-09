@@ -23,32 +23,28 @@ It seems to contain the active level the player reached, and the credits, vehicl
 
 ## Credits
 
-The 0x00000019 and
-    0x0000001A bytes
+The `0x00000019` and `0x0000001A` bytes:
 
-Are used to store the credits amount
-as a 2-byte number.
+These used to store the credits amount as a 2-byte number.
 
-Probably 0xFFFF would give you
-the maximum credits of 65535.
+Probably 0xFFFF would give you the maximum credits of 65535.
 
 ## Engine
 
-The 0x00000044 and
-    0x00000045 bytes
+The `0x00000044` and `0x00000045` bytes.
 
-Are used to store the engine.
-Lower number is slower engine.
+These are used to select the engine.
+Lower numbers are slower engines.
 
 Max engine is 0x0900 (set from game)
 
 ## Car
 
-The 0x00000044 byte stores the car.
-There's only a small number of possible cars,
-so it's only stored in one byte.
+The `0x00000044` byte stores the car.
 
-Max car option is 0x09.
+There's only a small number of possible cars, so it's only stored in one byte.
+
+The fastest car option is 0x09.
 
 ## Level (work in progress, not validated)
 
